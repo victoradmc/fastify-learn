@@ -10,7 +10,7 @@
     "lint": "eslint src --ext .ts",
     "knex": "node --import tsx ./node_modules/.bin/knex",
     "test": "vitest",
-    "build": "tsup src"
+    "build": "tsup src --out-dir build"
   },
   "keywords": [],
   "author": "",
